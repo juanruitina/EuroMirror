@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="user-scalable=no, width=device-width" />
+  <script src="../js/jquery.js"></script>
+  <script src="../js/script.js"></script>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../lang/en_UK.css">
+</head>
+<body ontouchstart="">
+
+<div id="header">
+<h1><a href="../index.html">Spain</a></h1>
+<a href="javascript:history.go(0)" class="button">refresh</a>
+</div>
+<div id="content">
+
+<p class="info">Member state since 1986. <a href="http://en.mobile.wikipedia.org/wiki/Spain">+info in Wikipedia</a>
+<div id="esnews" class="newsbox"></div>
+<p class="loading">Remember Internet connection is required.</p></div>
+<script type="text/javascript">
+
+var transform = 
+{"tag":"div","class":"news news-${id}","children":[
+{"tag":"div","class":"category category-${category}","html":""},   			   
+{"tag":"h3","html":"${title}"},
+{"tag":"p","html":"${date} — ${description}"},
+{"tag":"div","class":"meta","children":[
+
+{"tag":"div","class":"source","children":[
+{"tag":"img","class":"country-flag","src":"../img/flags/${country}.png"},
+{"tag":"span","class":"country country-${country}","html":" — "},
+{"tag":"span","class":"source-name","html":"${source}"}
+
+]},
+{"tag":"div","class":"links","children":[
+{"tag":"a","class":"url button","href":"${url}","html":"read more (in ","children":[{"tag":"span","class":"lang-${lang}","html":")"}]},
+{"tag":"a","class":"source-translated button lang-${lang}","href":"http://google.com/gwt/x?u=http%3A%2F%2Ftranslate.google.com%2Ftranslate%3Fhl%3Den%26sl%3Dauto%26tl%3Den%26u%3D${url}","html":"translate"}
+]}
+]}	    
+]};
+
+function insertNews(json) {
+if(json != undefined )
+$('#esnews').json2html(json, transform);
+}
+</script>
+
+<script type="text/javascript" src="http://evening-cliffs-2843.herokuapp.com/json/ES.php?callback=insertNews"></script>
+</body>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/* Spanish translation */
+
+/* Languages (23)
+http://publications.europa.eu/code/en/en-370200.htm */
+
+.newsbox span.lang-en:before {content:"inglés";}
+.newsbox span.lang-fr:before {content:"francés";}
+.newsbox span.lang-de:before {content:"alemán";}
+.newsbox span.lang-it:before {content:"italiano";}
+.newsbox span.lang-nl:before {content:"neerlandés";}
+.newsbox span.lang-bg:before {content:"búlgaro";}
+.newsbox span.lang-cs:before {content:"checo";}
+.newsbox span.lang-da:before {content:"danés";}
+.newsbox span.lang-et:before {content:"estonio";}
+.newsbox span.lang-el:before {content:"griego";}
+.newsbox span.lang-ga:before {content:"irlandés";}
+.newsbox span.lang-lv:before {content:"letón";}
+.newsbox span.lang-lt:before {content:"lituano";}
+.newsbox span.lang-hu:before {content:"húngaro";}
+.newsbox span.lang-mt:before {content:"maltés";}
+.newsbox span.lang-pl:before {content:"polaco";}
+.newsbox span.lang-ro:before {content:"rumano";}
+.newsbox span.lang-pt:before {content:"portugués";}
+.newsbox span.lang-sk:before {content:"eslovaco";}
+.newsbox span.lang-sl:before {content:"esloveno";}
+.newsbox span.lang-fi:before {content:"finlandés";}
+.newsbox span.lang-sv:before {content:"sueco";}
+.newsbox span.lang-es:before {content:"español";}
+
+/* Countries
+http://publications.europa.eu/code/pdf/370000en.htm */
+
+.newsbox span.country-uk:before {content:"Reino Unido";}
+.newsbox span.country-fr:before {content:"Francia";}
+.newsbox span.country-de:before {content:"Alemania";}
+.newsbox span.country-it:before {content:"Italia";}
+.newsbox span.country-be:before {content:"Bélgica";}
+.newsbox span.country-bg:before {content:"Bulgaria";}
+.newsbox span.country-cz:before {content:"República Checa";}
+.newsbox span.country-dk:before {content:"Dinamarca";}
+.newsbox span.country-ee:before {content:"Estonia";}
+.newsbox span.country-ie:before {content:"Irlanda";}
+.newsbox span.country-el:before {content:"Grecia";}
+.newsbox span.country-cy:before {content:"Chipre";}
+.newsbox span.country-lv:before {content:"Letonia";}
+.newsbox span.country-lt:before {content:"Lituania";}
+.newsbox span.country-lu:before {content:"Luxemburgo";}
+.newsbox span.country-hu:before {content:"Hungría";}
+.newsbox span.country-mt:before {content:"Malta";}
+.newsbox span.country-nl:before {content:"Países Bajos";}
+.newsbox span.country-at:before {content:"Austria";}
+.newsbox span.country-pl:before {content:"Polonia";}
+.newsbox span.country-pt:before {content:"Portugal";}
+.newsbox span.country-ro:before {content:"Rumanía";}
+.newsbox span.country-si:before {content:"Eslovenia";}
+.newsbox span.country-sk:before {content:"Eslovaquia";}
+.newsbox span.country-fi:before {content:"Finlandia";}
+.newsbox span.country-se:before {content:"Suecia";}
+.newsbox span.country-es:before {content:"España";}
+
+/* Categories */
+
+.newsbox div.category-economics:after {content:"Economía";}
+.newsbox div.category-politics:after {content:"Política";}
+.newsbox div.category-culture:after {content:"Cultura";}
+.newsbox div.category-science:after {content:"Ciencia";}
+.newsbox div.category-tech:after {content:"Tecnología";}
+.newsbox div.category-sports:after {content:"Deportes";}
+.newsbox div.category-ideas:after {content:"Ideas";}
+.newsbox div.category-others:after {content:"Otros";}

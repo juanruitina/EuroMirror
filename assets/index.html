@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="user-scalable=no, width=device-width" />
+  <script src="js/jquery.js"></script>
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body ontouchstart="">
+<div id="header">
+<h1>EuroMirror</h1>
+<a href="about.html" class="button">about this app</a>
+</div>
+<div id="content">
+
+<p class="chooseline">Please choose the country<br />you want to read news about</p>
+<ul class="choose">
+
+<li>
+<img class="flag" src="img/flags/de.png" alt="Flag of Germany"/>
+<a class="country" href="news/en_DE.html">Germany</a>
+</li>
+
+<li>
+<img class="flag" src="img/flags/fr.png" alt="Flag of France"/>
+<a class="country" href="news/en_FR.html">France</a>
+</li>
+
+<li>
+<img class="flag" src="img/flags/uk.png" alt="Union Jack"/>
+<a class="country" href="news/en_UK.html">United Kingdom</a>
+</li>
+
+<li>
+<img class="flag" src="img/flags/it.png" alt="Flag of Italy"/>
+<a class="country" href="news/en_IT.html">Italy</a>
+</li>
+
+<li>
+<img class="flag" src="img/flags/es.png" alt="Flag of Spain"/>
+<a class="country" href="news/en_ES.html">Spain</a>
+</li>
+
+</ul>
+
+<p class="morecountries">More countries soon!</p>
+</div>
+<script>
+/* Expand link to whole div */
+$(".choose li").click(function(){
+     window.location=$(this).find("a").attr("href"); 
+     return false;
+});
+
+/* Ticker 
+function choosetext(){
+$('#choosetext li:first').animate({'opacity':0}, 200, function () { $(this).appendTo($('#choosetext')).css('opacity', 1); });}
+setInterval(function(){ choosetext () }, 3000);	*/
+</script>
+</body>
+</html>
