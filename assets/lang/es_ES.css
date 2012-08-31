@@ -64,9 +64,9 @@ http://publications.europa.eu/code/pdf/370000en.htm */
 
 .newsbox div.category-economics:after {content:"Economía";}
 .newsbox div.category-politics:after {content:"Política";}
+.newsbox div.category-society:after {content:"Sociedad";}
 .newsbox div.category-culture:after {content:"Cultura";}
 .newsbox div.category-science:after {content:"Ciencia";}
 .newsbox div.category-tech:after {content:"Tecnología";}
 .newsbox div.category-sports:after {content:"Deportes";}
 .newsbox div.category-ideas:after {content:"Ideas";}
-.newsbox div.category-others:after {content:"Otros";}

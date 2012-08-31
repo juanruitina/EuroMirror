@@ -17,8 +17,8 @@ I'm not a JS or Android expert —at all, so there are some issues I couldn't ad
 
 ## Who is behind this? ##
 
-I'm [Juan Ruitiña](http://juanruitiña.com), a Journalism student from Spain. You can send me a mail to [eum@juanruitina.com](mailto:eum@juanruitina.com) or [follow me](http://twitter.com/juanruitina) on Twitter (I tweet mostly in Spanish).
+I'm [Juan Ruitiña](http://juanruitina.com), a Journalism student from Spain. You can send me a mail to [eum@juanruitina.com](mailto:eum@juanruitina.com) or [follow me](http://twitter.com/juanruitina) on Twitter (I tweet mostly in Spanish).
 
 ## License ##
 
-Both the code and the spreadsheet content is under a [Creative Commons BY-SA](http://creativecommons.org/licenses/by-sa/3.0/deed.en) license, so feel free to copy and redistribute —but please, don't forget to mention.
+Both the code and the spreadsheet content are under a [Creative Commons BY-SA](http://creativecommons.org/licenses/by-sa/3.0/deed.en) license, so feel free to copy and redistribute —but please, don't forget to mention.
