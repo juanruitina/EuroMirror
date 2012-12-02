@@ -1,10 +1,8 @@
 @charset "UTF-8";
-
 /* British English translation */
 
 /* Languages (23)
 http://publications.europa.eu/code/en/en-370200.htm */
-
 .newsbox span.lang-en:before {content:"English";}
 .newsbox span.lang-fr:before {content:"French";}
 .newsbox span.lang-de:before {content:"German";}
@@ -29,10 +27,17 @@ http://publications.europa.eu/code/en/en-370200.htm */
 .newsbox span.lang-sv:before {content:"Swedish";}
 .newsbox span.lang-es:before {content:"Spanish";}
 
+/* Semiofficial languages */
+.newsbox span.lang-cy:before {content:"Welsh";}
+.newsbox span.lang-gd:before {content:"Scottish Gaelic";}
+.newsbox span.lang-gl:before {content:"Galician";}
+.newsbox span.lang-eu:before {content:"Basque";}
+.newsbox span.lang-ca:before {content:"Catalan";}
+
 /* Countries
 http://publications.europa.eu/code/pdf/370000en.htm */
-
-.newsbox span.country-uk:before {content:"United Kingdom";}
+.newsbox span.country-eu:before {content:"EU";}
+.newsbox span.country-gb:before {content:"United Kingdom";}
 .newsbox span.country-fr:before {content:"France";}
 .newsbox span.country-de:before {content:"Germany";}
 .newsbox span.country-it:before {content:"Italy";}
@@ -60,8 +65,10 @@ http://publications.europa.eu/code/pdf/370000en.htm */
 .newsbox span.country-se:before {content:"Sweden";}
 .newsbox span.country-es:before {content:"Spain";}
 
-/* Categories */
+/* Fixed ISO code for GB: just for compatibility, will be removed in next version: */
+.newsbox span.country-uk:before {content:"United Kingdom";}
 
+/* Categories */
 .newsbox div.category-economics:after {content:"Economics";}
 .newsbox div.category-politics:after {content:"Politics";}
 .newsbox div.category-society:after {content:"Society";}

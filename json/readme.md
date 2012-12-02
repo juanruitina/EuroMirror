@@ -1,0 +1,3 @@
+These are the PHP files that turn CSV output of [this Google Spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0Ai5im0N8JkIDdDNpZ1l4VVFSb2tqaHFtNk9nZG41UkE) into nice, light JSON. You'll need to upload this to a server (I used Heroku hosting, free and with almost no downtime, but you'll need to use git) and obviously change the JSON input URL in the app code.
+
+[Source](https://gist.github.com/2508837), thanks to Rob Flaherty & Ændrew Rininsland.
